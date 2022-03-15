@@ -1,17 +1,25 @@
 import React from "react";
 import Journal from "./components/journal";
 import data from "./data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 export default function App() {
+  const journal = data.map((item) => {
+    return (
+      <div className="itemBlock">
+        <Journal key={item.id} item={item} />
+        <hr />
+      </div>
+    );
+  });
   return (
     <div className="App">
       <header className="App-header">
-        <img src="" alt="logo" />
-        <h6>my travel journal.</h6>
+        <FontAwesomeIcon icon={faEarthAmericas} font-size="24px" />
+        <h6>My Travel Journal</h6>
       </header>
-      <Journal key={data.id} data={data} />
-      <Journal key={data.id} data={data} />
-      <Journal key={data.id} data={data} />
+      <div className="body">{journal}</div>
     </div>
   );
 }
