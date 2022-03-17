@@ -18,10 +18,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 10.24px;
 }
 
 p {
-  font-size: 10.24px;
   font-weight: 400;
   line-height: 15.36px;
 }
@@ -55,26 +55,19 @@ header {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 hr {
   width: 478px;
-  margin-top: 18px;
-  margin-bottom: 18px;
   border: 1px solid #f5f5f5;
-}
-
-.itemBlock:nth-child(3) > hr {
-  border-color: transparent;
+  margin-top: 24px;
 }
 
 .journal {
   width: 471px;
   height: 168px;
-  display: flex;
-  flex-direction: row;
 
   & img {
     width: 126px;
@@ -83,14 +76,14 @@ hr {
   }
 
   & .content {
+    float: right;
     width: 326px;
-    padding-left: 19px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 168px;
+    position: relative;
+    bottom: -5%;
 
     & h4 {
-      display: inline-block;
+      display: inline;
       letter-spacing: 0.17rem;
       margin-left: 4px;
       margin-right: 12px;
@@ -99,19 +92,23 @@ hr {
     }
 
     & a {
+      vertical-align: text-top;
       color: #918e9b;
       font-size: 10.24px;
     }
-
     & h2 {
       margin-top: 4px;
+      font-size: 2.441em;
       margin-bottom: 14px;
       font-weight: 700;
     }
-
     & .date {
       margin-bottom: 9px;
       font-weight: 700;
     }
   }
+}
+
+.journal > .content:last-child {
+  bottom: -10%;
 }

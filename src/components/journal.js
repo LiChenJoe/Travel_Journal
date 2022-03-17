@@ -18,6 +18,7 @@ export default function Journal(props) {
         </p>
         <p className="description">{props.item.description}</p>
       </div>
+      {props.item.location !== "NORWAY" && <hr />}
     </div>
   );
 }

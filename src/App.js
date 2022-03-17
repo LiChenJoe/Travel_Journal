@@ -9,7 +9,6 @@ export default function App() {
     return (
       <div className="itemBlock">
         <Journal key={item.id} item={item} />
-        <hr />
       </div>
     );
   });
