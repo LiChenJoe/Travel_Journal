@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 export default function App() {
-  const journal = data.data.map((item) => {
+  const journal = data.map((item) => {
     return (
       <div className="itemBlock">
         <Journal key={item.id} item={item} />
