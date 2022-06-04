@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a281abf.css",
-    "main.js": "/static/js/main.27629f84.js",
-    "index.html": "/index.html",
-    "main.0a281abf.css.map": "/static/css/main.0a281abf.css.map",
-    "main.27629f84.js.map": "/static/js/main.27629f84.js.map"
+    "main.css": "/traveljournal__scrimbapractice4/static/css/main.0a281abf.css",
+    "main.js": "/traveljournal__scrimbapractice4/static/js/main.27629f84.js",
+    "index.html": "/traveljournal__scrimbapractice4/index.html",
+    "main.0a281abf.css.map": "/traveljournal__scrimbapractice4/static/css/main.0a281abf.css.map",
+    "main.27629f84.js.map": "/traveljournal__scrimbapractice4/static/js/main.27629f84.js.map"
   },
   "entrypoints": [
     "static/css/main.0a281abf.css",
