@@ -1,4 +1,4 @@
-<p>This is a React project that demonstrates the basic setup and structure of a React application from duplicated a example from the Scrimba React course.</p>
+<p>This is a React project that demonstrates the basic setup and structure of a React application. The design came from duplicated a example from the Scrimba React course.</p>
 
 <h2>Getting Started</h2>
 To get started with this project, follow these steps:
@@ -12,5 +12,5 @@ To get started with this project, follow these steps:
 <code>npm install</code></li>
 <li>Start the development server:
 <code>npm start</code></li>
-<li>Open your browser and visit http://localhost:5000 to see the app running.</li>
+<li>Open your browser and visit http://localhost:5500 to see the app running.</li>
 </ul>
